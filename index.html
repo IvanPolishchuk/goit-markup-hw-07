@@ -43,9 +43,9 @@
             </li>
           </ul>
         </nav>
-        <button class="mobile-menu-open js-open-menu" type="button">
+        <button class="mobile-menu-open js-open-menu" type="button" data-mobile-menu-open="">
           <svg class="burger" width="32" height="22">
-            <use href="./images/icon.svg#burger"></use>
+            <use href="./images/icon.svg#burger" style="stroke: #000000;"></use>
           </svg>
         </button>
         <address class="contact list">
@@ -116,7 +116,7 @@
               <li class="social-list-item">
                 <a href="" class="btn-link">
                   <svg class="teamsvg" width="24" height="24">
-                    <use href="./images/icon.svg#witter"></use>
+                    <use href="./images/icon.svg#twitter"></use>
                   </svg>
                 </a>
               </li>
@@ -423,7 +423,7 @@
       </section>
       <!--Section customers-->
       <section class="section sec">
-        <div class="container">
+        <div class="container cust-container">
           <h2 class="secthh list customer">Customers</h2>
           <ul class="list customer-sec">
             <li class="customer-list">
@@ -621,5 +621,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
